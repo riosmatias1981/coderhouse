@@ -5,7 +5,7 @@ let listadoDeProductos = 'Listado de Productos\n\n';
 function solicitarDatosUsuario() {
     let nombre = prompt('Ingrese su nombre');
     let apellido = prompt('Ingrese su Apellido');
-    alert('Bienvenido '+ nombre + ' ' + apellido);
+    alert('Bienvenido '+ nombre.toUpperCase() + ' ' + apellido.toUpperCase());
 }
 
 function agregarProductos() {
